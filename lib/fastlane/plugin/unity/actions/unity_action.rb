@@ -56,7 +56,7 @@ module Fastlane
           FastlaneCore::ConfigItem.new(key: :executable,
                                   env_name: "FL_UNITY_EXECUTABLE",
                                description: "Path to Unity executable",
-                             default_value: "/Applications/Unity/Unity.app/Contents/MacOS/Unity"),
+                             default_value: "/Applications/Unity/Hub/Editor/2018.2.6f1/Unity.app/Contents/MacOS/Unity"),
 
           FastlaneCore::ConfigItem.new(key: :batchmode,
                                   env_name: "FL_UNITY_BATCHMODE",
